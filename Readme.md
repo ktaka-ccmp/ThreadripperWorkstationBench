@@ -22,5 +22,15 @@ root@tr3970x:~/BenchMark# nice -n 10 stress --cpu 62 --io 4 --vm 32 --vm-bytes 1
 stress: info: [6085] dispatching hogs: 62 cpu, 4 io, 32 vm, 0 hdd
 stress: info: [6085] successful run completed in 601s
 
+5. Optimized Cooler Master MasterLiquid ML360 RGB TR4 Edition ftmon_202008300505.csv
+root@tr3970x:~/BenchMark# nice -n 10 stress --cpu 62 --io 4 --vm 32 --vm-bytes 1280M --timeout 600s
+stress: info: [5229] dispatching hogs: 62 cpu, 4 io, 32 vm, 0 hdd
+stress: info: [5229] successful run completed in 600s
+
+6. Cooler Master MasterLiquid ML360 RGB TR4 Edition + Noctua NF-A14 industrialPPC-3000 PWM x3 ftmon_202008300614.csv
+7. Optimized Cooler Master MasterLiquid ML360 RGB TR4 Edition + Noctua NF-A14 industrialPPC-3000 PWM x3 ftmon_202008300646.csv
+
+8. Cooler Master MasterLiquid ML360 RGB TR4 Edition + Noctua NF-A14 industrialPPC-3000 PWM x3 Max 1500RPM ftmon_202008300701.csv
+9. Cooler Master MasterLiquid ML360 RGB TR4 Edition + Noctua NF-A14 industrialPPC-3000 PWM x3 Max 1000RPM ftmon_202008300716.csv
 
 
